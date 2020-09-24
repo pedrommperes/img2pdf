@@ -16,6 +16,5 @@ im1 = image1.convert('RGB')
 
 base = os.path.basename(filename)
 base_ext = os.path.splitext(base)[0]
-#string = "r'" + dir_path + "\\" + base + ".pdf'"
-#print(string)
+
 im1.save(base_ext + ".pdf")
